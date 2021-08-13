@@ -2,7 +2,7 @@
 
 ## Summary
 
-Activity allows end users to search and view an overview of activities by a combination of: Team, Workflow, and Labels. You can also view the detailed execution of a particular activity, allowing end users to view task level execution, logs, results as well as the workflow level exeuction and results.
+The activitiy allows end users to search and view an overview of activities by a combination of: Team, Workflow, and Labels. You can also view the detailed execution of a particular activity, allowing end users to view task level execution, logs, results as well as the workflow level exeuction and results.
 
 ## Background
 
