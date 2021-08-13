@@ -1,6 +1,6 @@
 # Eventing
 
-As we mature and scales, eventing will become an important implementation, not just in triggering Workflows but also how we queue and execute Workflows.
+As we mature and scales, eventing will become an important implementation, not just in triggering Workflows but also how we queue and execute Workflows. A majority of the detail can be found in our [public architecture documentation](https://www.useboomerang.io/docs/boomerang-flow/architecture/eventing-architecture)
 
 ## Implementation
 
@@ -27,6 +27,10 @@ Eventing is currently an optional inclusion, if disabled, we fall back on sendin
     }
 }
 ```
+
+## Authorization
+
+We check for the authorization token prior to processing any requests. If the Workflow ID is valid but the token is not, we will log an activity against the Workflow with a Workflow level failure.
 
 ## Roadmap
 
