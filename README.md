@@ -24,6 +24,16 @@ Details on what benchmarking has been done.
 
 Document the intent and implementation for certain features, and allow for effective collaboration in an open and globally distributed team.
 
+- [Workflows](./flow/Workflows.md)
+- [Activity](./flow/Activity.md)
+- Insights
+- Manage
+- Administer
+
+### [Diagrams](./flow/architecture.drawio)
+
+Draw.io architecture diagrams that are embedded in the public documentation. 
+
 ## Boomerang Bosun Architecture
 
 TBA
